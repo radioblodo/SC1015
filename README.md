@@ -6,4 +6,4 @@ Lab: B134
 <br>  Members 
   1. Chai Zi Liang (@radioblodo)
   2. Ian Boo Jing Yong (@sirwoofles)
-  3. Ng Yin Ming (@
+  3. Ng Yin Ming (@badbananaa)
