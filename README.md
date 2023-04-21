@@ -23,9 +23,9 @@ This README briefly highlights what we have accomplished in this project. If you
 3. [Exploratory Data Analysis](#3-Exploratory-Data-Analysis)
 4. [Linear Regression Model](#4-Linear-Regression-Model)
 5. [Logistic Regression](#5-Logistic-Regression)
-6. [K-Nearest Neighbour (KNN)](#6-K-Nearest-Neighbour-(KNN))
+6. [K Nearest Neighbour (KNN)](#6-K-Nearest-Neighbour-(KNN))
 7. [Naïve Bayes](#7-Naïve-Bayes)
-8. [References]
+8. [References](#8-References)
 ---
 ### 1. [Problem Definition]
 
@@ -52,7 +52,7 @@ We did the following:
 ### 5. [Logistic Regression]
 
 
-### 6. [K-Nearest Neighbour (KNN)]
+### 6. [K Nearest Neighbour (KNN)]
 
 
 ### 7. [Naïve Bayes]
