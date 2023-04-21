@@ -17,7 +17,7 @@ This README briefly highlights what we have accomplished in this project. If you
 <br>
 ---
 ## Table of Contents:
-1. [Problem Formulation](#1-Problem-Formlation)
+1. [Problem Definition](#1-Problem-Defintion)
 2. [Data Preparation and Cleaning](#2-Data-Preparation-and-Cleaning)
 3. [Exploratory Data Analysis](#3-Exploratory-Data-Analysis)
 4. [Linear Regression Model](#4-Linear Regression Model)
@@ -25,12 +25,16 @@ This README briefly highlights what we have accomplished in this project. If you
 6. [K-Nearest Neighbour (KNN)](#6-K-Nearest Neighbour (KNN))
 7. [Naïve Bayes](#7-Naïve Bayes)
 8. [References](#8-References)
-
-
-
-4. Linear Regression Model
-5. Logistic Regression
-6. K-Nearest Neighbour (KNN)
-7. Naïve Bayes 
-8. References
 ---
+### 1. [Problem Definition] link?
+**Our Dataset:** [Diabetes, Hypertension and Stroke Prediction](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
+**Our Question:** Which health indicators and lifestyle factors contribute to an increased risk for Stroke? 
+
+**Practical Motivation:** We believe that this dataset as well as the question we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore(World Stroke Organization, n.d.). By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions to reduce the individual's risk to Stroke by targeting the corresponding factors contributing to his risk for Stroke.
+
+### 2. [Data Preparation and Cleaning] link?
+
+
+### 3. [Exploratory Data Analysis] LINK?
+
+
