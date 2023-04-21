@@ -35,9 +35,9 @@ This README briefly highlights what we have accomplished in this project. If you
 **Practical Motivation:** We believe that this dataset as well as the problem we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore(World Stroke Organization, n.d.). By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions to reduce the individual's risk to Stroke by targeting the corresponding factors contributing to his risk for Stroke.
 
 ### 2. [Data Preparation and Cleaning] link?
-1. **Preliminary Feature Selection:** Out of '10' Variables, we drop vairables 'work_type' and 'Residence_type' because we think were not relevant or feasible for exploration. 
-2. change variable types
-3. dropping NA values
+1. **Preliminary Feature Selection:** Out of '10' Variables, we drop variables 'work_type' and 'Residence_type' that we think are not relevant or feasible for exploration. 
+2. **Change Variable Types:** In the original dataset, the data types of categorical variables were labelled as 'int64' or 'float64'. So we changed their data types to 'category'
+3. **Dropping 'NaN's:** All the 'NaN' values in our dataset were dropped.
 
 ### 3. [Exploratory Data Analysis] LINK?
 Then, we explored our DataFrame further using Expmloratory Data Analysis to visualise any patterns in our data. 
