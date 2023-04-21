@@ -28,6 +28,7 @@ This README briefly highlights what we have accomplished in this project. If you
 8. [References](#8-References)
 ---
 ### 1. Problem Definition 
+Can we predict the probability of getting stroke and thus take measures to prevent it? If so, which model would be the most helpful in predicting?
 
 **Our Dataset:** [Diabetes, Hypertension and Stroke Prediction](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
 **Our Problem:** Which health indicators and lifestyle factors contribute to an increased risk for Stroke? 
@@ -46,7 +47,8 @@ We did the following:
 
 
 
-### 4. Linear Regression Model
+### 4. Decision Tree Classifier 
+We decided to use what we have learned from SC1015 and used Decision Tree Classifier to help us classify whether a particular group of people is more prone to getting stroke and from there, determine which factor is the most significant contributor. 
 
 
 ### 5. Logistic Regression
