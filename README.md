@@ -15,6 +15,7 @@ This repository contains all the Jupyter Notebooks, datasets, images, video pres
 <br>
 This README briefly highlights what we have accomplished in this project. If you want a more detailed explanation of things, please refer to the the Jupyter Notebooks in this repository. They contain more in-depth descriptions and smaller details which are not mentioned here in the README. For convenience, we have divided the notebooks into 5 parts which broadly relate to the 5 main sections of this project
 <br>
+
 ---
 ## Table of Contents:
 1. [Problem Definition](#1-Problem-Defintion)
