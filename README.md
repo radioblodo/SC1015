@@ -27,7 +27,7 @@ This README briefly highlights what we have accomplished in this project. If you
 7. [Naïve Bayes](#7-Naïve Bayes)
 8. [References](#8-References)
 ---
-### 1. [Problem Definition]
+### 1. Problem Definition
 
 **Our Dataset:** [Diabetes, Hypertension and Stroke Prediction](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
 **Our Problem:** Which health indicators and lifestyle factors contribute to an increased risk for Stroke? 
