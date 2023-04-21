@@ -18,7 +18,7 @@ This README briefly highlights what we have accomplished in this project. If you
 
 ---
 ### Table of Contents:
-1. [Problem Definition](#1-Problem-Defintion)
+1. Problem Definition (#1-Problem-Defintion)
 2. [Data Preparation and Cleaning](#2-Data-Preparation-and-Cleaning)
 3. [Exploratory Data Analysis](#3-Exploratory-Data-Analysis)
 4. [Linear Regression Model](#4-Linear Regression Model)
