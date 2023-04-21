@@ -18,7 +18,7 @@ This README briefly highlights what we have accomplished in this project. If you
 
 ---
 ### Table of Contents:
-1. Problem Definition (#1-Problem-Defintion)
+1. [Problem Definition] (#1-Problem-Defintion)
 2. [Data Preparation and Cleaning](#2-Data-Preparation-and-Cleaning)
 3. [Exploratory Data Analysis](#3-Exploratory-Data-Analysis)
 4. [Linear Regression Model](#4-Linear Regression Model)
@@ -27,7 +27,7 @@ This README briefly highlights what we have accomplished in this project. If you
 7. [Naïve Bayes](#7-Naïve Bayes)
 8. [References](#8-References)
 ---
-### 1.[Problem Definition] link?
+### 1.Problem Definition link?
 
 **Our Dataset:** [Diabetes, Hypertension and Stroke Prediction](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
 **Our Problem:** Which health indicators and lifestyle factors contribute to an increased risk for Stroke? 
