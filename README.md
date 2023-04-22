@@ -34,7 +34,7 @@ Can we predict the probability of getting stroke and thus take measures to preve
 **Our Dataset:** ['Diabetes, Hypertension and Stroke Prediction' from Kaggle](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
 **Our Problem:** How can we predict the probability of getting stroke? And can we take measures to prevent it? If so, which model would be the most helpful in predicting?
 
-**Practical Motivation:** We believe that this dataset as well as the problem we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore(World Stroke Organization, n.d.). By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions to reduce the individual's risk to Stroke by targeting the corresponding factors contributing to his risk for Stroke.
+**Practical Motivation:** We believe that this dataset as well as the problem we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore. By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions to reduce the individual's risk to Stroke by targeting the corresponding factors contributing to his risk for Stroke.
 
 ### 2. Data Preparation and Cleaning 
 Within this section, we have prepped and cleaned the dataset to facilitate improved analysis of the data and enable the utilization of the data for machine learning models in subsequent sections.
@@ -90,10 +90,11 @@ We used the same training and test data sets and the resultant accuracy in predi
 ### 8. Conclusion
 
 ### 9. References
-1. https://statisticsbyjim.com/regression/choosing-regression-analysis/
-2. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 (KNN nonpara)
-3. https://www.ibm.com/topics/knn ( what is k value for?)
-4. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 ( naiveB)
-5. https://www.kaggle.com/getting-started/225022
-6. https://www.sciencedirect.com/topics/mathematics/naive-bayes
-7. https://link.springer.com/article/10.1007/s10100-021-00782-1
+1. https://www.world-stroke.org/news-and-blog/news/sso-spotlight-singapore
+2. https://statisticsbyjim.com/regression/choosing-regression-analysis/
+3. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 (KNN nonpara)
+4. https://www.ibm.com/topics/knn ( what is k value for?)
+5. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 ( naiveB)
+6. https://www.kaggle.com/getting-started/225022
+7. https://www.sciencedirect.com/topics/mathematics/naive-bayes
+8. https://link.springer.com/article/10.1007/s10100-021-00782-1
