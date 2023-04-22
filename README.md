@@ -24,7 +24,7 @@ This README briefly highlights what we have accomplished in this project. If you
 4. [Linear Regression Model](#4-Linear-Regression-Model)
 5. [Logistic Regression](#5-Logistic-Regression)
 6. [K Nearest Neighbour (KNN)](#6-K-Nearest-Neighbour-(KNN))
-7. [Naïve Bayes](#7-Naïve-Bayes)
+7. [Gaussian Naïve Bayes](#7-Gaussian-Naïve-Bayes)
 8. [Conclusion](#8-Conclusion)
 9. [References](#9-References)
 ---
@@ -79,9 +79,13 @@ We used `KNN` because:
 
 Using the same training and test datasets, we also used k=1 as the accuracy of the model on the test dataset was the highest. This means that the model checks the point with the nearest single datapoint and use that to predict the datapoint. The accuracy of KNN is 86.5%, the highest all our models.
 
-### 7. Naïve Bayes
-We used `Naïve Bayes` because:
-1. 
+### 7. Gaussian Naïve Bayes
+We used `Gaussian Naïve Bayes` because:
+1.  It is probabilistic machine learning algorithm that can be used in classification tasks.
+2.  Naive - assumes that the features of the model are independent of each other. This makes the model more flexible and less complex, making it less prone to overfitting.
+3.  Does not require huge training data
+
+We used the same training and test data sets and the resultant accuracy in predicting `Stroke` is 68%.
 
 ### 8. Conclusion
 
@@ -89,3 +93,7 @@ We used `Naïve Bayes` because:
 1. https://statisticsbyjim.com/regression/choosing-regression-analysis/
 2. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 (KNN nonpara)
 3. https://www.ibm.com/topics/knn ( what is k value for?)
+4. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 ( naiveB)
+5. https://www.kaggle.com/getting-started/225022
+6. https://www.sciencedirect.com/topics/mathematics/naive-bayes
+7. https://link.springer.com/article/10.1007/s10100-021-00782-1
