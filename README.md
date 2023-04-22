@@ -47,14 +47,14 @@ Steps we took for this section:
 Afterwards, we conducted Exploratory Data Analysis on our DataFrame, which involved generating different graphs to visualize potential patterns within the variables. Subsequently, we established the correlation between the variables and Stroke, and deduced some inferences to address our problem at this stage.
 
 We did the following:
-1. **Explored `Sex` and relationship with 'Stroke'**: This is a categorical variable of 2 categories 'Male' and 'Female'. We found that Females were more likely to suffer from Stroke.
-2. **Explored `age` and relationship with 'Stroke'**: This is a numerical variable for age of the people in the dataset. We learnt that the median age of those suffering from Stroke is greater.
-3. **Explored `hypertension` and relationship with 'Stroke'**: This is a categorical variable of those with and without hypertension. There is a strong correlation of hypertension and Stroke.
-4. **Explored `heart_disease` and relationship with 'Stroke'**: Similar to 'hypertension', There is a strong correlation of 'heart_disease' and Stroke.
-5. **Explored `ever_married` and relationship with 'Stroke'**: We found that there was a strong correlation between 'ever_married' and Stroke.
-6. **Explored `average_glucose_level` and relationship with 'Stroke'**: This is a numerical variable of the average blood glucose level. We found that there were a lot of outliers with high glucose level but did not suffer from Stroke. We found that there was correlation between blood glucose level and Stroke.
-7. **Explored `bmi` and relationship with 'Stroke'**: 'bmi' is a numerical variable that increases with a persons weight. There were a lot of outliers with high bmi present. We found that there is little correlation between 'bmi' and Stroke.
-8. **Explored `smoking_status` and relationship with 'Stroke'**: We found that there was correlation between smoking and Stroke.
+1. **Explored `Sex` and relationship with `Stroke`**: This is a categorical variable of 2 categories 'Male' and 'Female'. We found that Females were more likely to suffer from Stroke.
+2. **Explored `age` and relationship with `Stroke`**: This is a numerical variable for age of the people in the dataset. We learnt that the median age of those suffering from Stroke is greater.
+3. **Explored `hypertension` and relationship with `Stroke`**: This is a categorical variable of those with and without hypertension. There is a strong correlation of hypertension and Stroke.
+4. **Explored `heart_disease` and relationship with `Stroke`**: Similar to 'hypertension', There is a strong correlation of 'heart_disease' and Stroke.
+5. **Explored `ever_married` and relationship with `Stroke`**: We found that there was a strong correlation between 'ever_married' and Stroke.
+6. **Explored `average_glucose_level` and relationship with `Stroke`**: This is a numerical variable of the average blood glucose level. We found that there were a lot of outliers with high glucose level but did not suffer from Stroke. We found that there was correlation between blood glucose level and Stroke.
+7. **Explored `bmi` and relationship with `Stroke`**: 'bmi' is a numerical variable that increases with a persons weight. There were a lot of outliers with high bmi present. We found that there is little correlation between 'bmi' and Stroke.
+8. **Explored `smoking_status` and relationship with `Stroke`**: We found that there was correlation between smoking and Stroke.
 
 For visualisation and further analysis, please refer to the Jupyter Notebook on EDA.
 
