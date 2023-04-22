@@ -52,7 +52,7 @@ We did the following:
 1. **Explored `Sex` and relationship with `Stroke`**: This is a categorical variable of 2 categories 'Male' and 'Female'. We found that Females were more likely to suffer from Stroke.
 2. **Explored `age` and relationship with `Stroke`**: This is a numerical variable for age of the people in the dataset. We learnt that the median age of those suffering from Stroke is greater.
 3. **Explored `hypertension` and relationship with `Stroke`**: This is a categorical variable of those with and without hypertension. There is a strong correlation of hypertension and Stroke.
-4. **Explored `heart_disease` and relationship with `Stroke`**: Similar to 'hypertension', There is a strong correlation of 'heart_disease' and Stroke.
+4. **Explored `heart_disease` and relationship with `Stroke`**: Similar to 'hypertension', there is a strong correlation of 'heart_disease' and Stroke.
 5. **Explored `ever_married` and relationship with `Stroke`**: We found that there was a strong correlation between 'ever_married' and Stroke.
 6. **Explored `average_glucose_level` and relationship with `Stroke`**: This is a numerical variable of the average blood glucose level. We found that there were a lot of outliers with high glucose level but did not suffer from Stroke. We found that there was correlation between blood glucose level and Stroke.
 7. **Explored `bmi` and relationship with `Stroke`**: 'bmi' is a numerical variable that increases with a persons weight. There were a lot of outliers with high bmi present. We found that there is little correlation between 'bmi' and Stroke.
@@ -65,7 +65,9 @@ We decided to use what we have learned from SC1015 and used Decision Tree Classi
 
 
 ### 5. Logistic Regression
+We used `Logistic Regression` because it is able to model the relationship between the categorical dependent variable `Stroke` and one or more independent variables, which can be categorical or numerical, which fulfills the characteristics of our dataset. This model would let us predict the probability of `Stroke` based on the independent variables.
 
+We split our dataset of 40,849 points into 80:20 train-test dataset. We tested the trained model on the 20% test dataset and the accuracy of predicting `Stroke` is 68%.
 
 ### 6. K Nearest Neighbour (KNN)
 
