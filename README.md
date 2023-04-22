@@ -28,7 +28,7 @@ This README briefly highlights what we have accomplished in this project. If you
 8. [Conclusion](#8-Conclusion)
 9. [References](#9-References)
 ---
-### 1. [Problem Definition](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_1_Data_Prep_Cleaning.ipynb)
+### 1. Problem Definition
 Can we predict the probability of getting stroke and thus take measures to prevent it? If so, which model would be the most helpful in predicting?
 
 **Our Dataset:** ['Diabetes, Hypertension and Stroke Prediction' from Kaggle](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
@@ -36,7 +36,7 @@ Can we predict the probability of getting stroke and thus take measures to preve
 
 **Practical Motivation:** We believe that this dataset as well as the problem we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore. By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions to reduce the individual's risk to Stroke by targeting the corresponding factors contributing to his risk for Stroke.
 
-### 2. Data Preparation and Cleaning 
+### 2. [Data Preparation and Cleaning](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_1_Data_Prep_Cleaning.ipynb) 
 Within this section, we have prepped and cleaned the dataset to facilitate improved analysis of the data and enable the utilization of the data for machine learning models in subsequent sections.
 
 Steps we took for this section:
