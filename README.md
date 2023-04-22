@@ -36,7 +36,7 @@ Can we predict the probability of getting stroke and thus take measures to preve
 
 **Practical Motivation:** We believe that this dataset as well as the problem we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore. By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions to reduce the individual's risk to Stroke by targeting the corresponding factors contributing to his risk for Stroke.
 
-### 2. [Data Preparation and Cleaning](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_1_Data_Prep_Cleaning.ipynb) 
+### 2. [Data Preparation and Cleaning](https://github.com/radioblodo/SC1015/blob/main/Data_Cleaning.ipynb) 
 Within this section, we have prepped and cleaned the dataset to facilitate improved analysis of the data and enable the utilization of the data for machine learning models in subsequent sections.
 
 Steps we took for this section:
@@ -45,7 +45,7 @@ Steps we took for this section:
 3. **Dropping 'NaN's:** All the 'NaN' values in our dataset were dropped.
 4. **Removing of age<0:** All the rows with values <0 for `age` were removed.
 
-### 3. Exploratory Data Analysis
+### 3. [Exploratory Data Analysis](https://github.com/radioblodo/SC1015/blob/main/Exploratory_Data_Analysis.ipynb) 
 Afterwards, we conducted Exploratory Data Analysis on our DataFrame, which involved generating different graphs to visualize potential patterns within the variables. Subsequently, we established the correlation between the variables and Stroke, and deduced some inferences to address our problem at this stage.
 
 We did the following:
@@ -57,6 +57,7 @@ We did the following:
 6. **Explored `average_glucose_level` and relationship with `Stroke`**: This is a numerical variable of the average blood glucose level. We found that there were a lot of outliers with high glucose level but did not suffer from Stroke. We found that there was correlation between blood glucose level and Stroke.
 7. **Explored `bmi` and relationship with `Stroke`**: 'bmi' is a numerical variable that increases with a persons weight. There were a lot of outliers with high bmi present. We found that there is little correlation between 'bmi' and Stroke.
 8. **Explored `smoking_status` and relationship with `Stroke`**: We found that there was correlation between smoking and Stroke.
+9. **Explored correlation using Pearson Correlation Coefficient and Chi-square test**: we found the extent to which our features are correlated to `Stroke`. We had to do two separate tests because the variables were of different data types.
 
 For visualisation and further analysis, please refer to the Jupyter Notebook on EDA.
 
@@ -78,7 +79,7 @@ We used `KNN` because:
 1. It is useful for classification problems like predicting categorical variables such as stroke, based on a mix of numerical and categorical predictor variables.
 2. It is a non-parametric method - means that it does not make any assumptions for data distribution and the model structure is determined by our dataset. which is helpful in our case to model real-world datasets that do not follow mathematical assumptions.
 
-Using the same training and test datasets, we also used k=1 as the accuracy of the model on the test dataset was the highest. This means that the model checks the point with the nearest single datapoint and use that to predict the datapoint. The accuracy of KNN is 86.5%, the highest all our models.
+Using the same training and test datasets, we also used k=2 as the accuracy of the model on the test dataset was the highest. This means that the model checks the point with the nearest single datapoint and use that to predict the datapoint. The accuracy of KNN is 86.5%, the highest all our models.
 
 ### 7. Gaussian Naïve Bayes
 We used `Gaussian Naïve Bayes` because:
