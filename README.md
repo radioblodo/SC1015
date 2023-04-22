@@ -94,12 +94,13 @@ From our project, we cleaned our dataset and performed exploratory analysis. The
 Beyond this project, we could possibly further improve our model into predicting the level of an individual's risk of Stroke. Then, we can implement this prediction model in a preliminary Stroke Risk Assessment, a convenient way for the public to input their information in return for a reliable gauge of risk for Stroke. Then, we can advise them steps to mitigate their risk or to seek professional medical diagnosis. This would raise awareness of Stroke and aid in early prevention of Strokein Singapore.
 
 ### 9. References
-1. https://www.world-stroke.org/news-and-blog/news/sso-spotlight-singapore
-2. https://www.kdnuggets.com/2020/01/decision-tree-algorithm-explained.html
-3. https://statisticsbyjim.com/regression/choosing-regression-analysis/
-4. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 
-5. https://www.ibm.com/topics/knn 
-6. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 
-7. https://www.kaggle.com/getting-started/225022
-8. https://www.sciencedirect.com/topics/mathematics/naive-bayes
-9. https://link.springer.com/article/10.1007/s10100-021-00782-1
+1. https://www.kaggle.com/datasets/prosperchuks/health-dataset
+2. https://www.world-stroke.org/news-and-blog/news/sso-spotlight-singapore
+3. https://www.kdnuggets.com/2020/01/decision-tree-algorithm-explained.html
+4. https://statisticsbyjim.com/regression/choosing-regression-analysis/
+5. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 
+6. https://www.ibm.com/topics/knn 
+7. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 
+8. https://www.kaggle.com/getting-started/225022
+9. https://www.sciencedirect.com/topics/mathematics/naive-bayes
+10. https://link.springer.com/article/10.1007/s10100-021-00782-1
