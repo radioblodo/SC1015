@@ -43,7 +43,7 @@ Steps we took for this section:
 1. **Preliminary Feature Selection:** Out of '10' Variables, we drop variables 'work_type' and 'Residence_type' that we think are not relevant or feasible for exploration. 
 2. **Change Variable Types:** In the original dataset, the data types of categorical variables were labelled as 'int64' or 'float64'. So we changed their data types to 'category'
 3. **Dropping 'NaN's:** All the 'NaN' values in our dataset were dropped.
-4. **Removing of age<0:** All the rows with values <0 for 'age' were removed.
+4. **Removing of age<0:** All the rows with values <0 for `age` were removed.
 
 ### 3. Exploratory Data Analysis
 Afterwards, we conducted Exploratory Data Analysis on our DataFrame, which involved generating different graphs to visualize potential patterns within the variables. Subsequently, we established the correlation between the variables and Stroke, and deduced some inferences to address our problem at this stage.
