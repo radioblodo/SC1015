@@ -61,8 +61,9 @@ We did the following:
 For visualisation and further analysis, please refer to the Jupyter Notebook on EDA.
 
 ### 4. Decision Tree Classifier 
-We decided to use what we have learned from SC1015 and used Decision Tree Classifier to help us classify whether a particular group of people is more prone to getting stroke and from there, determine which factor is the most significant contributor. 
+We decided to use what we have learned from SC1015 and used Decision Tree Classifier to help us classify whether a particular group of people is more prone to getting stroke and from there, determine which factor is the most significant contributor. Then we also used this to predict `Stroke`.
 
+We split our dataset of 40,849 points into `80:20` train-test dataset with `random_state`=42 to ensure replicability of results. We tested the trained model on the test dataset and the accuracy of predicting `Stroke` is 70%.
 
 ### 5. Logistic Regression
 We used `Logistic Regression` because:
@@ -70,7 +71,7 @@ We used `Logistic Regression` because:
 2. Works with small sample sizes: This model is useful for datasets <100k. 
 3. We can manipulate the threshold on the predicted probability of the dependent variable. Which will affect the accuracy of the model as it changes the limit when we classify people to have Stroke.
 
-We split our dataset of 40,849 points into `80:20` train-test dataset with `random_state`=42. We tested the trained model on the 20% test dataset and the accuracy of predicting `Stroke` is 68%.
+We used the same training and test data sets and the resultant accuracy in predicting `Stroke` is 68%.
 
 ### 6. K Nearest Neighbour (KNN)
 We used `KNN` because:
