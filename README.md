@@ -12,9 +12,9 @@ Members
  
 ---
 ### Description
-This repository contains all the Jupyter Notebooks, datasets, images, video presentations, and the source materials/references we have used and created as part of the Mini Project for SC1015: Introduction to Data Science and AI.
+This repository contains all the Jupyter Notebooks, datasets, video presentations, and the source materials/references we have used and created as part of the Mini Project for SC1015: Introduction to Data Science and AI.
 
-This README briefly highlights what we have accomplished in this project. If you want a more detailed explanation of things, please refer to the the Jupyter Notebooks in this repository. They contain more in-depth descriptions and smaller details which are not mentioned here in the README. For convenience, we have divided the notebooks into 5 parts which broadly relate to the 5 main sections of this project
+This README briefly highlights what we have accomplished in this project. If you want a more detailed explanation of things, please refer to the the Jupyter Notebooks. For convenience, we have divided our project into 8 parts
 
 ---
 ### Table of Contents:
@@ -32,7 +32,7 @@ This README briefly highlights what we have accomplished in this project. If you
 Can we predict the probability of getting stroke and thus take measures to prevent it? If so, which model would be the most helpful in predicting?
 
 **Our Dataset:** ['Diabetes, Hypertension and Stroke Prediction' from Kaggle](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
-**Our Problem:** How can we predict the probability of getting stroke? And can we take measures to prevent it? If so, which model would be the most helpful in predicting?
+**Our Problem:** We decided to focus on Stroke Prediction. How can we predict the probability of getting stroke? And can we take measures to prevent it? If so, which model would be the most helpful in predicting?
 
 **Practical Motivation:** We believe that this dataset as well as the problem we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore. By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions to reduce the individual's risk to Stroke by targeting the corresponding factors contributing to his risk for Stroke.
 
