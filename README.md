@@ -65,15 +65,27 @@ We decided to use what we have learned from SC1015 and used Decision Tree Classi
 
 
 ### 5. Logistic Regression
-We used `Logistic Regression` because it is able to model the relationship between the categorical dependent variable `Stroke` and one or more independent variables, which can be categorical or numerical, which fulfills the characteristics of our dataset. This model would let us predict the probability of `Stroke` based on the independent variables.
+We used `Logistic Regression` because:
+1. It can model the relationship between the categorical dependent variable `Stroke` and one or more independent variables, which can be categorical or numerical. This is useful for us due to the characteristics of our dataset and let us predict the probability of `Stroke` based on the independent variables, which is our goal.
+2. Works with small sample sizes: This model is useful for datasets <100k. 
+3. We can manipulate the threshold on the predicted probability of the dependent variable. Which will affect the accuracy of the model as it changes the limit when we classify people to have Stroke.
 
-We split our dataset of 40,849 points into 80:20 train-test dataset. We tested the trained model on the 20% test dataset and the accuracy of predicting `Stroke` is 68%.
+We split our dataset of 40,849 points into `80:20` train-test dataset with `random_state`=42. We tested the trained model on the 20% test dataset and the accuracy of predicting `Stroke` is 68%.
 
 ### 6. K Nearest Neighbour (KNN)
+We used `KNN` because:
+1. It is useful for classification problems like predicting categorical variables such as stroke, based on a mix of numerical and categorical predictor variables.
+2. It is a non-parametric method - means that it does not make any assumptions for data distribution and the model structure is determined by our dataset. which is helpful in our case to model real-world datasets that do not follow mathematical assumptions.
 
+Using the same training and test datasets, we also used k=1 as the accuracy of the model on the test dataset was the highest. This means that the model checks the point with the nearest single datapoint and use that to predict the datapoint. The accuracy of KNN is 86.5%, the highest all our models.
 
 ### 7. Naïve Bayes
+We used `Naïve Bayes` because:
+1. 
 
 ### 8. Conclusion
 
 ### 9. References
+1. https://statisticsbyjim.com/regression/choosing-regression-analysis/
+2. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 (KNN nonpara)
+3. https://www.ibm.com/topics/knn ( what is k value for?)
