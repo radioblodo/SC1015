@@ -95,9 +95,9 @@ Beyond this project, we could possibly further improve our model into predicting
 ### 9. References
 1. https://www.world-stroke.org/news-and-blog/news/sso-spotlight-singapore
 2. https://statisticsbyjim.com/regression/choosing-regression-analysis/
-3. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 (KNN nonpara)
-4. https://www.ibm.com/topics/knn ( what is k value for?)
-5. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 ( naiveB)
+3. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 
+4. https://www.ibm.com/topics/knn 
+5. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 
 6. https://www.kaggle.com/getting-started/225022
 7. https://www.sciencedirect.com/topics/mathematics/naive-bayes
 8. https://link.springer.com/article/10.1007/s10100-021-00782-1
