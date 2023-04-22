@@ -30,8 +30,8 @@ This README briefly highlights what we have accomplished in this project. If you
 ### 1. Problem Definition 
 Can we predict the probability of getting stroke and thus take measures to prevent it? If so, which model would be the most helpful in predicting?
 
-**Our Dataset:** [Diabetes, Hypertension and Stroke Prediction](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
-**Our Problem:** Which health indicators and lifestyle factors contribute to an increased risk for Stroke? 
+**Our Dataset:** ['Diabetes, Hypertension and Stroke Prediction' from Kaggle](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
+**Our Problem:** How can we predict the probability of getting stroke? And can we take measures to prevent it? If so, which model would be the most helpful in predicting?
 
 **Practical Motivation:** We believe that this dataset as well as the problem we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore(World Stroke Organization, n.d.). By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions to reduce the individual's risk to Stroke by targeting the corresponding factors contributing to his risk for Stroke.
 
