@@ -25,7 +25,8 @@ This README briefly highlights what we have accomplished in this project. If you
 5. [Logistic Regression](#5-Logistic-Regression)
 6. [K Nearest Neighbour (KNN)](#6-K-Nearest-Neighbour-(KNN))
 7. [Naïve Bayes](#7-Naïve-Bayes)
-8. [References](#8-References)
+8. [Conclusion](#8-Conclusion)
+9. [References](#9-References)
 ---
 ### 1. Problem Definition 
 Can we predict the probability of getting stroke and thus take measures to prevent it? If so, which model would be the most helpful in predicting?
@@ -42,6 +43,7 @@ Steps we took for this section:
 1. **Preliminary Feature Selection:** Out of '10' Variables, we drop variables 'work_type' and 'Residence_type' that we think are not relevant or feasible for exploration. 
 2. **Change Variable Types:** In the original dataset, the data types of categorical variables were labelled as 'int64' or 'float64'. So we changed their data types to 'category'
 3. **Dropping 'NaN's:** All the 'NaN' values in our dataset were dropped.
+4. **Removing of age<0:** All the rows with ages <0 were removed.
 
 ### 3. Exploratory Data Analysis
 Afterwards, we conducted Exploratory Data Analysis on our DataFrame, which involved generating different graphs to visualize potential patterns within the variables. Subsequently, we established the correlation between the variables and Stroke, and deduced some inferences to address our problem at this stage.
@@ -70,4 +72,6 @@ We decided to use what we have learned from SC1015 and used Decision Tree Classi
 
 ### 7. Naïve Bayes
 
-### 8. References
+### 8. Conclusion
+
+### 9. References
