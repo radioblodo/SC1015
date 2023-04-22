@@ -88,6 +88,9 @@ We used `Gaussian Naïve Bayes` because:
 We used the same training and test data sets and the resultant accuracy in predicting `Stroke` is 68%.
 
 ### 8. Conclusion
+From our project, we cleaned our dataset and performed exploratory analysis. Then, we implemented 4 different machine learning models and evaluated their accuracy in predicting `Stroke`. Out of the 4 models, we found out that `K Nearest Neighbour` was the most accurate at 86%.
+
+Beyond this project, we could possibly further improve our model into predicting the level of an individual's risk of Stroke. Then, we can implement this prediction model in a preliminary Stroke Risk Assessment, a convenient way for the public to input their information in return for a reliable gauge of risk for Stroke. Then, we can advise them steps to mitigate their risk or to seek professional medical diagnosis. This would raise awareness of Stroke and aid in early prevention of Strokein Singapore.
 
 ### 9. References
 1. https://www.world-stroke.org/news-and-blog/news/sso-spotlight-singapore
