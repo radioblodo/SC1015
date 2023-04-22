@@ -28,7 +28,7 @@ This README briefly highlights what we have accomplished in this project. If you
 8. [Conclusion](#8-Conclusion)
 9. [References](#9-References)
 ---
-### 1. Problem Definition 
+### 1. [Problem Definition](https://github.com/ardnep/ntu-sc1015-mini-project/blob/a1e85b5ec7fdeeaca5ddf6c4cdc55a9e95874124/Part_1_Data_Prep_Cleaning.ipynb)
 Can we predict the probability of getting stroke and thus take measures to prevent it? If so, which model would be the most helpful in predicting?
 
 **Our Dataset:** ['Diabetes, Hypertension and Stroke Prediction' from Kaggle](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
@@ -95,10 +95,11 @@ Beyond this project, we could possibly further improve our model into predicting
 
 ### 9. References
 1. https://www.world-stroke.org/news-and-blog/news/sso-spotlight-singapore
-2. https://statisticsbyjim.com/regression/choosing-regression-analysis/
-3. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 
-4. https://www.ibm.com/topics/knn 
-5. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 
-6. https://www.kaggle.com/getting-started/225022
-7. https://www.sciencedirect.com/topics/mathematics/naive-bayes
-8. https://link.springer.com/article/10.1007/s10100-021-00782-1
+2. https://www.kdnuggets.com/2020/01/decision-tree-algorithm-explained.html
+3. https://statisticsbyjim.com/regression/choosing-regression-analysis/
+4. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 
+5. https://www.ibm.com/topics/knn 
+6. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 
+7. https://www.kaggle.com/getting-started/225022
+8. https://www.sciencedirect.com/topics/mathematics/naive-bayes
+9. https://link.springer.com/article/10.1007/s10100-021-00782-1
