@@ -120,3 +120,10 @@ Beyond this project, we could possibly further improve our model into predicting
 12. https://www.kaggle.com/getting-started/225022
 13. https://www.sciencedirect.com/topics/mathematics/naive-bayes
 14. https://link.springer.com/article/10.1007/s10100-021-00782-1
+
+---
+### Contributors:
+  1. Chai Zi Liang ([@radioblodo](https://github.com/radioblodo)): Exploratory Data Analysis, LogisticRegression, K-Nearest Neighbour, Filming & Editing
+  2. Ian Boo Jing Yong ([@sirwoofles](https://github.com/sirwoofles)):Exploratory Data Analysis, Data Cleaning & Preparation, LogisticRegression, Filming
+  3. Ng Yin Ming ([@badbananaa](https://github.com/badbananaa)): Decision Tree Classifier, Gaussian Naïve Bayes, K-Nearest Neighbour, Filming, PowerPoint Slides
+
