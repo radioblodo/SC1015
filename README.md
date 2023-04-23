@@ -21,7 +21,7 @@ This README briefly highlights what we have accomplished in this project. If you
 1. [Problem Definition](#1-Problem-Definition)
 2. [Data Preparation and Cleaning](#2-Data-Preparation-and-Cleaning)
 3. [Exploratory Data Analysis](#3-Exploratory-Data-Analysis)
-4. [Linear Regression Model](#4-Linear-Regression-Model)
+4. [Decision Tree Classifier](#4-Decision-Tree-Classifier)
 5. [Logistic Regression](#5-Logistic-Regression)
 6. [K Nearest Neighbour (KNN)](#6-K-Nearest-Neighbour-(KNN))
 7. [Gaussian Naïve Bayes](#7-Gaussian-Naïve-Bayes)
