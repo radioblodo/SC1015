@@ -62,12 +62,12 @@ We did the following:
 
 For visualisation and further analysis, please refer to the Jupyter Notebook on EDA.
 
-### 4. Decision Tree Classifier 
+### 4. [Decision Tree Classifier](https://github.com/radioblodo/SC1015/blob/main/Decision_Tree_Classifier.ipynb) 
 We decided to use what we have learned from SC1015 and used Decision Tree Classifier to help us classify whether a particular group of people is more prone to getting stroke and from there, determine which factor is the most significant contributor. Then we also used this to predict `Stroke`.
 
 We split our dataset of 40,849 points into `80:20` train-test dataset with `random_state`=42 to ensure replicability of results. We tested the trained model on the test dataset and the accuracy of predicting `Stroke` is 70%.
 
-### 5. Logistic Regression
+### 5. [Logistic Regression](https://github.com/radioblodo/SC1015/blob/main/Logistic_Regression_Model.ipynb)
 We used `Logistic Regression` because:
 1. It can model the relationship between the categorical dependent variable `Stroke` and one or more independent variables, which can be categorical or numerical. This is useful for us due to the characteristics of our dataset and let us predict the probability of `Stroke` based on the independent variables, which is our goal.
 2. Works with small sample sizes: This model is useful for datasets <100k. 
@@ -75,14 +75,14 @@ We used `Logistic Regression` because:
 
 We used the same training and test data sets and the resultant accuracy in predicting `Stroke` is 68%.
 
-### 6. K Nearest Neighbour (KNN)
+### 6. [K Nearest Neighbour (KNN)](https://github.com/radioblodo/SC1015/blob/main/K-Nearest_Neighbour.ipynb)
 We used `KNN` because:
 1. It is useful for classification problems like predicting categorical variables such as stroke, based on a mix of numerical and categorical predictor variables.
 2. It is a non-parametric method - means that it does not make any assumptions for data distribution and the model structure is determined by our dataset. which is helpful in our case to model real-world datasets that do not follow mathematical assumptions.
 
 Using the same training and test datasets, we also used k=2 as the accuracy of the model on the test dataset was the highest. This means that the model checks the point with the nearest single datapoint and use that to predict the datapoint. The accuracy of KNN is 86.5%, the highest all our models.
 
-### 7. Gaussian Naïve Bayes
+### 7. [Gaussian Naïve Bayes](https://github.com/radioblodo/SC1015/blob/main/Gaussian_Naive_Bayes.ipynb)
 We used `Gaussian Naïve Bayes` because:
 1.  It is probabilistic machine learning algorithm that can be used in classification tasks.
 2.  Naive - assumes that the features of the model are independent of each other. This makes the model more flexible and less complex, making it less prone to overfitting.
