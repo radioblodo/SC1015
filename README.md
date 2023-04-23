@@ -11,9 +11,9 @@ Members
  
 ---
 ### Description
-This repository contains all the Jupyter Notebooks, datasets, video presentations, and the source materials/references we have used and created as part of the Mini Project for SC1015: Introduction to Data Science and AI.
+This repository contains all the Jupyter Notebooks, datasets, video presentations, and the source materials/references we have created and used as part of the Mini Project for SC1015: Introduction to Data Science and AI.
 
-This README briefly highlights what we have accomplished in this project. If you want a more detailed explanation of things, please refer to the the Jupyter Notebooks. For convenience, we have divided our project into 8 parts
+This README briefly highlights what we have accomplished in this project. If you want a more detailed explanation of things, please refer to the the Jupyter Notebooks. For clarity, we have divided our project into 9 sections.
 
 ---
 ### Table of Contents:
@@ -28,22 +28,22 @@ This README briefly highlights what we have accomplished in this project. If you
 9. [References](#9-References)
 ---
 ### 1. Problem Definition
-Can we predict the probability of getting stroke and thus take measures to prevent it? If so, which model would be the most helpful in predicting?
+Can we predict the probability of getting stroke and thus take measures to prevent it? If so, which model would be the most helpful in making this prediction?
 
 **Our Dataset:** ['Diabetes, Hypertension and Stroke Prediction' from Kaggle](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
 **Our Problem:** We decided to focus on Stroke Prediction. How can we predict the probability of getting stroke? And can we take measures to prevent it? If so, which model would be the most helpful in predicting?
 
-**Practical Motivation:** We believe that this dataset as well as the problem we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore. By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions to reduce the individual's risk to Stroke by targeting the corresponding factors contributing to his risk for Stroke.
+**Practical Motivation:** We believe that this dataset as well as the problem we pose is relavant to the Singapore context. This is because Stroke is currently Singapore's 4th leading cause of death, comprising of 6.8% of all deaths in Singapore. By learning the various reasons contributing to Stroke, we might be able to predict an individual's risk for Stroke. And we can also recommend actions based on data driven insights to reduce the individual's risk to Stroke.
 
 ### 2. [Data Preparation and Cleaning](https://github.com/radioblodo/SC1015/blob/main/Data_Cleaning.ipynb) 
-Within this section, we have prepped and cleaned the dataset to facilitate improved analysis of the data and enable the utilization of the data for machine learning models in subsequent sections.
+Within this section, we have prepped and cleaned the dataset to facilitate the analysis of the data and for the machine learning models in subsequent sections.
 
 Steps we took for this section:
 1. **Preliminary Feature Selection:** Out of '10' Variables, we drop variables 'work_type' and 'Residence_type' that we think are not relevant or feasible for exploration. 
 2. **Change Variable Types:** In the original dataset, the data types of categorical variables were labelled as 'int64' or 'float64'. So we changed their data types to 'category'
 3. **Dropping 'NaN's:** All the 'NaN' values in our dataset were dropped.
 4. **Removing of age<0:** All the rows with values <0 for `age` were removed.
-5. **Exported a csv file of the cleaned dataset**
+5. **Exported a csv file of the cleaned dataset to be used in subsequent sections**
 
 ### 3. [Exploratory Data Analysis](https://github.com/radioblodo/SC1015/blob/main/Exploratory_Data_Analysis.ipynb) 
 Afterwards, we conducted Exploratory Data Analysis on our DataFrame, which involved generating different graphs to visualize potential patterns within the variables. Subsequently, we established the correlation between the variables and Stroke, and deduced some inferences to address our problem at this stage.
@@ -57,14 +57,17 @@ We did the following:
 6. **Explored `average_glucose_level` and relationship with `Stroke`**: This is a numerical variable of the average blood glucose level. We found that there were a lot of outliers with high glucose level but did not suffer from Stroke. We found that there was correlation between blood glucose level and Stroke.
 7. **Explored `bmi` and relationship with `Stroke`**: 'bmi' is a numerical variable that increases with a persons weight. There were a lot of outliers with high bmi present. We found that there is little correlation between 'bmi' and Stroke.
 8. **Explored `smoking_status` and relationship with `Stroke`**: We found that there was correlation between smoking and Stroke.
-9. **Explored correlation using Pearson Correlation Coefficient and Chi-square test**: we found the extent to which our features are correlated to `Stroke`. We had to do two separate tests because the variables were of different data types.
+9. **Explored correlation using Pearson Correlation Coefficient and Chi-square test**: we found the extent to which our features are correlated and associated to `Stroke`. We had to do two separate tests because the variables were of different data types.
 
 For visualisation and further analysis, please refer to the Jupyter Notebook on EDA.
 
 ### 4. [Decision Tree Classifier](https://github.com/radioblodo/SC1015/blob/main/Decision_Tree_Classifier.ipynb) 
 We decided to use what we have learned from SC1015 and used Decision Tree Classifier to help us classify whether a particular group of people is more prone to getting stroke and from there, determine which factor is the most significant contributor. Then we also used this to predict `Stroke`.
 
-We split our dataset of 40,849 points into `80:20` train-test dataset with `random_state`=42 to ensure replicability of results. We tested the trained model on the test dataset and the accuracy of predicting `Stroke` is 70%.
+We split our dataset of 40,849 points into `80:20` train-test datasets with `random_state = 42` to ensure replicability of results. 
+We tested the trained model on the test dataset and the accuracy of predicting `Stroke` is `66%`.
+
+Then we optimised the model by performing `GridSearchCV` to determine the optimum depth for the model. After re-running the optimised model, the accuracy was improved to `84.6%`
 
 ### 5. [Logistic Regression](https://github.com/radioblodo/SC1015/blob/main/Logistic_Regression_Model.ipynb)
 We used `Logistic Regression` because:
@@ -72,7 +75,9 @@ We used `Logistic Regression` because:
 2. Works with small sample sizes: This model is useful for datasets <100k. 
 3. We can manipulate the threshold on the predicted probability of the dependent variable. Which will affect the accuracy of the model as it changes the limit when we classify people to have Stroke.
 
-We used the same training and test data sets and the resultant accuracy in predicting `Stroke` is 68%.
+We used the same training and test data sets and the resultant accuracy in predicting `Stroke` is 68.36%.
+
+Then we optimised the model by adding hyperparameters using `GridSearchCV`. We also added smoothing parameters to reduce the risk of overfitting. The optimised Model's accuracy improved only by a small margin to 68.397%.
 
 ### 6. [K Nearest Neighbour (KNN)](https://github.com/radioblodo/SC1015/blob/main/K-Nearest_Neighbour.ipynb)
 We used `KNN` because:
