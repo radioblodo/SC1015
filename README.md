@@ -1,7 +1,6 @@
 # SC1015: DSAI Mini Project - Predicting Stroke using various factors
 
-School of Computer Science and Engineering\ 
-Nanyang Technological University \
+School of Computer Science and Engineering | Nanyang Technological University \
 Lab: B134 \
 Team 1 
 
