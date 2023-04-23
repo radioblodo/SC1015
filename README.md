@@ -17,17 +17,17 @@ This README briefly highlights what we have accomplished in this project. If you
 
 ---
 ### Table of Contents:
-1. [Problem Definition](#1-Problem-Definition)
+1. [Practical Motivation & Problem Definition](#1-Practical-Motivation-&-Problem-Definition)
 2. [Data Preparation and Cleaning](#2-Data-Preparation-and-Cleaning)
 3. [Exploratory Data Analysis](#3-Exploratory-Data-Analysis)
 4. [Decision Tree Classifier](#4-Decision-Tree-Classifier)
 5. [Logistic Regression](#5-Logistic-Regression)
 6. [K Nearest Neighbour (KNN)](#6-K-Nearest-Neighbour-(KNN))
 7. [Gaussian Naïve Bayes](#7-Gaussian-Naïve-Bayes)
-8. [Conclusion](#8-Conclusion)
+8. [Data Driven Insights & Conclusion](#8-Data-Driven-Insights-&-Conclusion)
 9. [References](#9-References)
 ---
-### 1. Problem Definition
+### 1. Practical Motivation & Problem Definition
 Can we predict the probability of getting stroke and thus take measures to prevent it? If so, which model would be the most helpful in making this prediction?
 
 **Our Dataset:** ['Diabetes, Hypertension and Stroke Prediction' from Kaggle](https://www.kaggle.com/datasets/prosperchuks/health-dataset) \
@@ -97,10 +97,13 @@ We used `Gaussian Naïve Bayes` because:
 We used the same training and test data sets and the resultant accuracy in predicting `Stroke` is 66%.
 Then we used `GridSearcCV` to make adjustments to the hyperparameters and improved the model's accuracy to 67%.
 
-### 8. Conclusion
+### 8. Data Driven Insights & Conclusion
+We learnt that the factors one can reasonably control to mitigate their risk of Stroke include:  `bmi`, `smoking_status` and `avg_glucose_level`,
+Individuals can also take steps to prevent `hypertension` and `heart_disease` by leading a healthier lifestyle. Coincidentally, these factors have high correlation and association with `Stroke`, thus controlling them would greatly reduce the risk of Stroke.
+
 From our project, we cleaned our dataset and performed exploratory analysis. Then, we implemented 4 different machine learning models and evaluated their accuracy in predicting `Stroke`. Out of the 4 models, we found out that `K Nearest Neighbour` was the most accurate at 86%.
 
-Beyond this project, we could possibly further improve our model into predicting the level of an individual's risk of Stroke. Then, we can implement this prediction model in a preliminary Stroke Risk Assessment, a convenient way for the public to input their information in return for a reliable gauge of risk for Stroke. Then, we can advise them steps to mitigate their risk or to seek professional medical diagnosis. This would raise awareness of Stroke and aid in early prevention of Strokein Singapore.
+Beyond this project, we could possibly further improve our model into predicting the level of an individual's risk of Stroke. Then, we can implement this prediction model in a preliminary Stroke Risk Assessment, a convenient way for the public to input their information in return for a reliable gauge of risk for Stroke. Then, we can advise them steps to mitigate their risk or to seek professional medical diagnosis. This would raise awareness of Stroke and aid in early prevention of Stroke in Singapore.
 
 ### 9. References
 1. https://www.kaggle.com/datasets/prosperchuks/health-dataset
