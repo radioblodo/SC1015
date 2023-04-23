@@ -84,7 +84,9 @@ We used `KNN` because:
 1. It is useful for classification problems like predicting categorical variables such as stroke, based on a mix of numerical and categorical predictor variables.
 2. It is a non-parametric method - means that it does not make any assumptions for data distribution and the model structure is determined by our dataset. which is helpful in our case to model real-world datasets that do not follow mathematical assumptions.
 
-Using the same training and test datasets, we also used k=2 as the accuracy of the model on the test dataset was the highest. This means that the model checks the point with the nearest single datapoint and use that to predict the datapoint. The accuracy of KNN is 86.5%, the highest all our models.
+Using the same training and test datasets, we got an accuracy of 81%.
+
+Then we optimised the model by changing the parameter k, which affects how many nearest points to check and use the classification of those to form a prediciton. we plotted the error-rate and k-value chart to see which k value will result in the lowest error rate. We chose k=2 and the improved accuracy was 89%, the highest among the models.
 
 ### 7. [Gaussian Naïve Bayes](https://github.com/radioblodo/SC1015/blob/main/Gaussian_Naive_Bayes.ipynb)
 We used `Gaussian Naïve Bayes` because:
@@ -92,7 +94,8 @@ We used `Gaussian Naïve Bayes` because:
 2.  Naive - assumes that the features of the model are independent of each other. This makes the model more flexible and less complex, making it less prone to overfitting.
 3.  Does not require huge training data
 
-We used the same training and test data sets and the resultant accuracy in predicting `Stroke` is 68%.
+We used the same training and test data sets and the resultant accuracy in predicting `Stroke` is 66%.
+Then we used `GridSearcCV` to make adjustments to the hyperparameters and improved the model's accuracy to 67%.
 
 ### 8. Conclusion
 From our project, we cleaned our dataset and performed exploratory analysis. Then, we implemented 4 different machine learning models and evaluated their accuracy in predicting `Stroke`. Out of the 4 models, we found out that `K Nearest Neighbour` was the most accurate at 86%.
@@ -103,10 +106,14 @@ Beyond this project, we could possibly further improve our model into predicting
 1. https://www.kaggle.com/datasets/prosperchuks/health-dataset
 2. https://www.world-stroke.org/news-and-blog/news/sso-spotlight-singapore
 3. https://www.kdnuggets.com/2020/01/decision-tree-algorithm-explained.html
-4. https://statisticsbyjim.com/regression/choosing-regression-analysis/
-5. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 
-6. https://www.ibm.com/topics/knn 
-7. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 
-8. https://www.kaggle.com/getting-started/225022
-9. https://www.sciencedirect.com/topics/mathematics/naive-bayes
-10. https://link.springer.com/article/10.1007/s10100-021-00782-1
+4. https://www.projectpro.io/recipes/optimize-hyper-parameters-of-decisiontree-model-using-grid-search-in-python
+5. https://statisticsbyjim.com/regression/choosing-regression-analysis/
+6. https://towardsdatascience.com/tuning-the-hyperparameters-of-your-machine-learning-model-using-gridsearchcv-7fc2bb76ff27
+7. https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4 
+8. https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb
+9. https://www.ibm.com/topics/knn 
+10. https://www.upgrad.com/blog/gaussian-naive-bayes/?msclkid=658123f7d04811ec8608a267e841a654 
+11. https://www.analyticsvidhya.com/blog/2021/01/gaussian-naive-bayes-with-hyperpameter-tuning/
+12. https://www.kaggle.com/getting-started/225022
+13. https://www.sciencedirect.com/topics/mathematics/naive-bayes
+14. https://link.springer.com/article/10.1007/s10100-021-00782-1
